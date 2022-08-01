@@ -1,0 +1,179 @@
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+h1 {
+  font-family: serif;
+  color: #377ba8; 
+}
+
+.logo {
+  text-decoration: none;
+  color: #377ba8;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+/* Navegación */
+nav {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav h1 {
+  margin: 1rem;
+  font-size: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+
+  width: 150px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav ul li a:hover {
+  color: #377ba8;
+}
+
+.content {
+  padding: 1rem; 
+}
+
+.content > header { border-bottom: 1px solid lightgray; display: flex; align-items: flex-end;  }
+.content > header h1 { flex: auto; margin: 1rem 0 0.25rem 0;  }
+
+.flash { 
+  margin: 3em auto; 
+  padding: .6rem 1rem; 
+  background: #ff0b5d; 
+  border: 1px solid #d31866;
+  border-radius: .25rem;
+  width: 500px;  
+}
+
+
+form {
+  width: 500px;
+  margin: 5rem auto;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: .25rem;
+}
+
+form input,
+textarea {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: .25rem;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 70px;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+input,
+textarea {
+  width:460px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  padding: .4rem 1rem;
+}
+
+textarea {
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: .6rem 1rem;
+}
+
+
+.post {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.post > header { display: flex; align-items: flex-end; font-size: 0.85em;  }
+
+.post > header > div:first-of-type { flex: auto;  }
+
+.post > header h1 { 
+  font-size: 1.5em; 
+  margin-bottom: .1rem;   
+}
+
+.post .about { color: slategray; font-style: italic;  }
+
+.post .body { 
+  white-space: pre-line;
+  margin-top: 1rem; 
+}
+
+.content:last-child { margin-bottom: 0;  }
+
+input.danger { color: #cc2f2e;  }
+
+
+.action {
+  text-decoration: none;
+  padding: .5rem 1rem;
+  background: #ffc857; 
+  color: #ffffff;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+.new {
+  background: #4cbd97; 
+  color: #ffffff; 
+}
+
+.header_post {
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
